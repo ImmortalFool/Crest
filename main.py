@@ -65,7 +65,7 @@ def print_slot_machine(columns):
                 print(column[row], end="")
         print()
 
-# Checks taht user is entering valid amount
+# Checks that user is entering valid amount
 def deposit():
     while True:
         amount = input("What would you like to deposit? Rs.")
